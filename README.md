@@ -1,8 +1,9 @@
 library(devtools)
+
 install_github("davidmartini90/pam")
 
-
 library(pam)
+
 example_data
 
 
