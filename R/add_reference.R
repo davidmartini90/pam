@@ -86,6 +86,8 @@ if(!("acquisition_morning_start" %in% names(input_data))){stop("column 'acquisit
 
 }
 #' @examples
+#' library(dplyr)
+#'
 #'example_data %>%
 #'  add_acquisition(
 #'    start_of_night = "20:40",

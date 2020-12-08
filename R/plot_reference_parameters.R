@@ -63,6 +63,8 @@ return(output_plot)
 
 }
 #' @examples
+#' library(dplyr)
+#'
 #'example_data %>%
 #'  add_acquisition(
 #'    start_of_night = "20:40",
